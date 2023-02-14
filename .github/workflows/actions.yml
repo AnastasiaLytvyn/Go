@@ -25,6 +25,7 @@ jobs:
       - name: Run go vet
         run: go vet ./...
 
-      # Run testing on the code
-      - name: Run testing
-        run: cd test && go test -v ./...
+#      Uncomment after adding tests
+#      # Run testing on the code
+#      - name: Run testing
+#        run: cd test && go test -v ./...
